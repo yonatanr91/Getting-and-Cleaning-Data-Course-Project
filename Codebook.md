@@ -23,7 +23,7 @@ For each record in the dataset it is provided:
 
 ## Variables
 
- [1] "Subject"                                      
+| Subject | subject identification                                      
  [2] "Activity"                                     
  [3] "timeBodyAcceleration-mean()-X"                
  [4] "timeBodyAcceleration-mean()-Y"                
@@ -92,6 +92,6 @@ For each record in the dataset it is provided:
 [67] "frequencyBodyGyroscopeJerkMagnitude-mean()"   
 [68] "frequencyBodyGyroscopeJerkMagnitude-std()"  
 
-Citation Request:
+## Citation Request:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
