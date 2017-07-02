@@ -23,74 +23,74 @@ For each record in the dataset it is provided:
 
 ## Variables
 
-| Subject | subject identification                                      
- [2] "Activity"                                     
- [3] "timeBodyAcceleration-mean()-X"                
- [4] "timeBodyAcceleration-mean()-Y"                
- [5] "timeBodyAcceleration-mean()-Z"                
- [6] "timeBodyAcceleration-std()-X"                 
- [7] "timeBodyAcceleration-std()-Y"                 
- [8] "timeBodyAcceleration-std()-Z"                 
- [9] "timeGravityAcceleration-mean()-X"             
-[10] "timeGravityAcceleration-mean()-Y"             
-[11] "timeGravityAcceleration-mean()-Z"             
-[12] "timeGravityAcceleration-std()-X"              
-[13] "timeGravityAcceleration-std()-Y"              
-[14] "timeGravityAcceleration-std()-Z"              
-[15] "timeBodyAccelerationJerk-mean()-X"            
-[16] "timeBodyAccelerationJerk-mean()-Y"            
-[17] "timeBodyAccelerationJerk-mean()-Z"            
-[18] "timeBodyAccelerationJerk-std()-X"             
-[19] "timeBodyAccelerationJerk-std()-Y"             
-[20] "timeBodyAccelerationJerk-std()-Z"             
-[21] "timeBodyGyroscope-mean()-X"                   
-[22] "timeBodyGyroscope-mean()-Y"                   
-[23] "timeBodyGyroscope-mean()-Z"                   
-[24] "timeBodyGyroscope-std()-X"                    
-[25] "timeBodyGyroscope-std()-Y"                    
-[26] "timeBodyGyroscope-std()-Z"                    
-[27] "timeBodyGyroscopeJerk-mean()-X"               
-[28] "timeBodyGyroscopeJerk-mean()-Y"               
-[29] "timeBodyGyroscopeJerk-mean()-Z"               
-[30] "timeBodyGyroscopeJerk-std()-X"                
-[31] "timeBodyGyroscopeJerk-std()-Y"                
-[32] "timeBodyGyroscopeJerk-std()-Z"                
-[33] "timeBodyAccelerationMagnitude-mean()"         
-[34] "timeBodyAccelerationMagnitude-std()"          
-[35] "timeGravityAccelerationMagnitude-mean()"      
-[36] "timeGravityAccelerationMagnitude-std()"       
-[37] "timeBodyAccelerationJerkMagnitude-mean()"     
-[38] "timeBodyAccelerationJerkMagnitude-std()"      
-[39] "timeBodyGyroscopeMagnitude-mean()"            
-[40] "timeBodyGyroscopeMagnitude-std()"             
-[41] "timeBodyGyroscopeJerkMagnitude-mean()"        
-[42] "timeBodyGyroscopeJerkMagnitude-std()"         
-[43] "frequencyBodyAcceleration-mean()-X"           
-[44] "frequencyBodyAcceleration-mean()-Y"           
-[45] "frequencyBodyAcceleration-mean()-Z"           
-[46] "frequencyBodyAcceleration-std()-X"            
-[47] "frequencyBodyAcceleration-std()-Y"            
-[48] "frequencyBodyAcceleration-std()-Z"            
-[49] "frequencyBodyAccelerationJerk-mean()-X"       
-[50] "frequencyBodyAccelerationJerk-mean()-Y"       
-[51] "frequencyBodyAccelerationJerk-mean()-Z"       
-[52] "frequencyBodyAccelerationJerk-std()-X"        
-[53] "frequencyBodyAccelerationJerk-std()-Y"        
-[54] "frequencyBodyAccelerationJerk-std()-Z"        
-[55] "frequencyBodyGyroscope-mean()-X"              
-[56] "frequencyBodyGyroscope-mean()-Y"              
-[57] "frequencyBodyGyroscope-mean()-Z"              
-[58] "frequencyBodyGyroscope-std()-X"               
-[59] "frequencyBodyGyroscope-std()-Y"               
-[60] "frequencyBodyGyroscope-std()-Z"               
-[61] "frequencyBodyAccelerationMagnitude-mean()"    
-[62] "frequencyBodyAccelerationMagnitude-std()"     
-[63] "frequencyBodyAccelerationJerkMagnitude-mean()"
-[64] "frequencyBodyAccelerationJerkMagnitude-std()" 
-[65] "frequencyBodyGyroscopeMagnitude-mean()"       
-[66] "frequencyBodyGyroscopeMagnitude-std()"        
-[67] "frequencyBodyGyroscopeJerkMagnitude-mean()"   
-[68] "frequencyBodyGyroscopeJerkMagnitude-std()"  
+ [1] "Subject" - subject identification                                      
+ [2] "Activity" - measured activity                      
+ [3] "timeBodyAcceleration-mean()-X" - mean time body acceleration in X direction                  
+ [4] "timeBodyAcceleration-mean()-Y" - mean time body acceleration in Y direction
+ [5] "timeBodyAcceleration-mean()-Z" - mean time body acceleration in Z direction                 
+ [6] "timeBodyAcceleration-std()-X" - stdev time body acceleration in X direction                  
+ [7] "timeBodyAcceleration-std()-Y" - stdev time body acceleration in Y direction                  
+ [8] "timeBodyAcceleration-std()-Z" - stdev time body acceleration in Z direction                  
+ [9] "timeGravityAcceleration-mean()-X"  - mean time gravity acceleration in X direction            
+[10] "timeGravityAcceleration-mean()-Y"  - mean time gravity acceleration in Y direction              
+[11] "timeGravityAcceleration-mean()-Z"  - mean time gravity acceleration in Z direction             
+[12] "timeGravityAcceleration-std()-X" - stdev time gravity acceleration in X direction              
+[13] "timeGravityAcceleration-std()-Y" - stdev time gravity acceleration in Y direction              
+[14] "timeGravityAcceleration-std()-Z" - stdev time gravity acceleration in Z direction              
+[15] "timeBodyAccelerationJerk-mean()-X" - mean time body acceleration jerk in X direction             
+[16] "timeBodyAccelerationJerk-mean()-Y" - mean time body acceleration jerk in Y direction             
+[17] "timeBodyAccelerationJerk-mean()-Z" - mean time body acceleration jerk in Z direction             
+[18] "timeBodyAccelerationJerk-std()-X" - stdev time body acceleration jerk in X direction             
+[19] "timeBodyAccelerationJerk-std()-Y" - stdev time body acceleration jerk in Y direction              
+[20] "timeBodyAccelerationJerk-std()-Z" - stdev time body acceleration jerk in Z direction              
+[21] "timeBodyGyroscope-mean()-X" - mean time body gyroscope in X direction                   
+[22] "timeBodyGyroscope-mean()-Y" - mean time body gyroscope in Y direction                    
+[23] "timeBodyGyroscope-mean()-Z" - mean time body gyroscope in Z direction                    
+[24] "timeBodyGyroscope-std()-X" - stdev time body gyroscope in X direction                     
+[25] "timeBodyGyroscope-std()-Y" - stdev time body gyroscope in Y direction                     
+[26] "timeBodyGyroscope-std()-Z" - stdev time body gyroscope in Z direction                     
+[27] "timeBodyGyroscopeJerk-mean()-X" - mean time body gyroscope jerk in X direction                
+[28] "timeBodyGyroscopeJerk-mean()-Y" - mean time body gyroscope jerk in Y direction                
+[29] "timeBodyGyroscopeJerk-mean()-Z" - mean time body gyroscope jerk in Z direction                
+[30] "timeBodyGyroscopeJerk-std()-X" - stdev time body gyroscope jerk in X direction                  
+[31] "timeBodyGyroscopeJerk-std()-Y" - stdev time body gyroscope jerk in Y direction                 
+[32] "timeBodyGyroscopeJerk-std()-Z" - stdev time body gyroscope jerk in Z direction                 
+[33] "timeBodyAccelerationMagnitude-mean()" - mean time body acceleration magnitude     
+[34] "timeBodyAccelerationMagnitude-std()" - stdev time body acceleration magnitude
+[35] "timeGravityAccelerationMagnitude-mean()" - mean time gravity acceleration magnitude       
+[36] "timeGravityAccelerationMagnitude-std()" - stdev time gravity acceleration magnitude        
+[37] "timeBodyAccelerationJerkMagnitude-mean()" - mean time body acceleration jerk magnitude 
+[38] "timeBodyAccelerationJerkMagnitude-std()" - stdev time body acceleration jerk magnitude   
+[39] "timeBodyGyroscopeMagnitude-mean()" - mean time body gyroscope magnitude             
+[40] "timeBodyGyroscopeMagnitude-std()" - stdev time body gyroscope magnitude              
+[41] "timeBodyGyroscopeJerkMagnitude-mean()" - mean time body gyroscope jerk magnitude        
+[42] "timeBodyGyroscopeJerkMagnitude-std()" - stdev time body gyroscope jerk magnitude         
+[43] "frequencyBodyAcceleration-mean()-X" - mean frequency body acceleration in X direction                 
+[44] "frequencyBodyAcceleration-mean()-Y" - mean frequency body acceleration in Y direction            
+[45] "frequencyBodyAcceleration-mean()-Z" - mean frequency body acceleration in Z direction           
+[46] "frequencyBodyAcceleration-std()-X" - stdev frequency body acceleration in X direction            
+[47] "frequencyBodyAcceleration-std()-Y" - stdev frequency body acceleration in Y direction             
+[48] "frequencyBodyAcceleration-std()-Z" - stdev frequency body acceleration in Z direction             
+[49] "frequencyBodyAccelerationJerk-mean()-X" - mean frequency body acceleration jerk in X direction
+[50] "frequencyBodyAccelerationJerk-mean()-Y" - mean frequency body acceleration jerk in Y direction        
+[51] "frequencyBodyAccelerationJerk-mean()-Z" - mean frequency body acceleration jerk in Z direction     
+[52] "frequencyBodyAccelerationJerk-std()-X" - stdev frequency body acceleration jerk in X direction         
+[53] "frequencyBodyAccelerationJerk-std()-Y" - stdev frequency body acceleration jerk in Y direction         
+[54] "frequencyBodyAccelerationJerk-std()-Z" - stdev frequency body acceleration jerk in Z direction         
+[55] "frequencyBodyGyroscope-mean()-X" - mean frequency body gyroscope in X direction               
+[56] "frequencyBodyGyroscope-mean()-Y" - mean frequency body gyroscope in Y direction               
+[57] "frequencyBodyGyroscope-mean()-Z" - mean frequency body gyroscope in Z direction              
+[58] "frequencyBodyGyroscope-std()-X" - stdev frequency body gyroscope in X direction               
+[59] "frequencyBodyGyroscope-std()-Y" - stdev frequency body gyroscope in Y direction                
+[60] "frequencyBodyGyroscope-std()-Z" - stdev frequency body gyroscope in Z direction                
+[61] "frequencyBodyAccelerationMagnitude-mean()" - mean frequency body acceleration magnitude
+[62] "frequencyBodyAccelerationMagnitude-std()" - stdev frequency body acceleration magnitude      
+[63] "frequencyBodyAccelerationJerkMagnitude-mean()" - mean frequency body acceleration jerk magnitude
+[64] "frequencyBodyAccelerationJerkMagnitude-std()" - stdev frequency body acceleration jerk magnitude
+[65] "frequencyBodyGyroscopeMagnitude-mean()" - mean frequency body gyroscope magnitude       
+[66] "frequencyBodyGyroscopeMagnitude-std()" - stdev frequency body gyroscope magnitude        
+[67] "frequencyBodyGyroscopeJerkMagnitude-mean()" - mean frequency body gyroscope jerk magnitude   
+[68] "frequencyBodyGyroscopeJerkMagnitude-std()" - stdev frequency body gyroscope jerk magnitude
 
 ## Citation Request:
 
